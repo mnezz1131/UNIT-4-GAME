@@ -25,12 +25,9 @@
        <p>Each the time the game starts the value of the crystal will change.</p>
     </div>
 
-
-    <div class= "green"> 
-    
-        <p>39</p> 
+    <div class= "green">    
+        <p><span id = "targetScore" ></span></p> 
     </div>
-
     
     <div class= "aqua"> 
         <div class="container">
@@ -40,8 +37,8 @@
                <p>Losses:</p>
               </div>
               <div class="col-sm">
-                <p>0</p>
-               <p>0</p>
+                <p><span id = wins>0</span></p>
+               <p><span id = losses>0</span></p>
               </div>
               
             </div>
@@ -53,16 +50,16 @@
     <div class="container">
         <div class="row">
           <div class="col-sm">
-            <img src="../UNIT-4-GAME/Assets/Images/agua.png" alt = "image" height="152" width="140">
+            <span id = aqua> <img src="../UNIT-4-GAME/Assets/Images/agua.png"  alt = "image" height="152" width="140"></span>
           </div>
           <div class="col-sm">
-            <img src="../UNIT-4-GAME/Assets/Images/blue.png"  alt = "image" height="145" width="145">
+            <span id = blue> <img src="../UNIT-4-GAME/Assets/Images/blue.png"  alt = "image" height="145" width="145"></span>
           </div>
           <div class="col-sm">
-            <img src="../UNIT-4-GAME/Assets/Images/purple.png"  alt = "image" height="150" width="140">
+            <span id = pink> <img src="../UNIT-4-GAME/Assets/Images/pink.png"  alt = "image" height="150" width="140"></span>
           </div>
           <div class="col-sm">
-            <img src="../UNIT-4-GAME/Assets/Images/red.png"  alt = "image" height="148" width="140">
+            <span id = red><img src="../UNIT-4-GAME/Assets/Images/red.png"  alt = "image" height="148" width="140"></span>
           </div>
         </div>
     </div>
@@ -72,9 +69,10 @@
     <p>Your Total Score Is:</p>   
 </div>
 <div class= "total"> 
-    <p>0</p>   
+  <p><span id = "yourScore" ></span></p>  
 </div>
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="../UNIT-4-GAME/Assets/JS/game.js"></script>
 </body>
 </html>
